@@ -8,53 +8,25 @@ import { Textarea } from "@/components/ui/textarea";
 const Contact = () => {
   const facultyCoordinators = [
     {
-      name: "Dr. Sarah Johnson",
-      designation: "Professor & HOD, Dept. of AI & ML",
-      email: "sarah.johnson@college.edu",
-      phone: "+91 98765 43210",
-      image: "👩‍🏫",
-    },
-    {
-      name: "Dr. Michael Chen",
-      designation: "Associate Professor, Dept. of AI & ML",
-      email: "michael.chen@college.edu",
-      phone: "+91 98765 43211",
-      image: "👨‍🏫",
+      name: "Mr. B. Ramesh",
+      designation: "Assistant Proffessor, Dept. of AI & ML",
+      phone: "+91 98667 46284",
+      image: "👨‍🏫"
     },
   ];
 
   const studentCoordinators = [
     {
-      name: "Alex Rodriguez",
+      name: "P. Sushanth",
       designation: "Event Head & Final Year AI & ML",
-      email: "alex.rodriguez@student.college.edu",
-      phone: "+91 98765 43212",
-      department: "Technical Events",
-      image: "👨‍💻",
+      phone: "+91 79935 72969",
+      image: "👨‍🏫" 
     },
     {
-      name: "Priya Sharma",
-      designation: "Cultural Head & Final Year AI & ML",
-      email: "priya.sharma@student.college.edu",
-      phone: "+91 98765 43213",
-      department: "Cultural Events",
-      image: "👩‍💻",
-    },
-    {
-      name: "David Kumar",
-      designation: "Technical Coordinator & Third Year AI & ML",
-      email: "david.kumar@student.college.edu",
-      phone: "+91 98765 43214",
-      department: "Technical Support",
-      image: "👨‍💼",
-    },
-    {
-      name: "Emily Wang",
-      designation: "Logistics Head & Third Year AI & ML",
-      email: "emily.wang@student.college.edu",
-      phone: "+91 98765 43215",
-      department: "Event Management",
-      image: "👩‍💼",
+      name: "V. Keerthi",
+      designation: "Event Head & Final Year AI & ML",
+      phone: "+91 79930 66231",
+      image: "👩‍🏫"
     },
   ];
 
@@ -65,28 +37,7 @@ const Contact = () => {
       url: "https://instagram.com/lumina2k25",
       icon: "📸",
       followers: "2.5K",
-    },
-    {
-      platform: "LinkedIn",
-      handle: "LuMInA 2K25",
-      url: "https://linkedin.com/company/lumina2k25",
-      icon: "💼",
-      followers: "1.8K",
-    },
-    {
-      platform: "Twitter",
-      handle: "@LuMInA2K25",
-      url: "https://twitter.com/lumina2k25",
-      icon: "🐦",
-      followers: "1.2K",
-    },
-    {
-      platform: "YouTube",
-      handle: "LuMInA Fest",
-      url: "https://youtube.com/luminafest",
-      icon: "📺",
-      followers: "980",
-    },
+    }, 
   ];
 
   return (
@@ -339,13 +290,13 @@ const Contact = () => {
             </h3>
             <div className="space-y-2 text-lg font-inter text-muted-foreground mb-6">
               <p>Department of Artificial Intelligence & Machine Learning</p>
-              <p>Tech University Campus</p>
-              <p>Innovation Drive, Tech City - 560001</p>
-              <p>Karnataka, India</p>
+              <p>St'Martins Engineering Collage</p>
+              <p>Dhulapally Road, Near Kompally, Medchal–Malkajgiri district. Secunderabad-500 100</p>
+              <p>Telangana, India</p>
             </div>
             <Button variant="neon" asChild>
               <a 
-                href="https://maps.google.com" 
+                href="https://maps.app.goo.gl/UQxQhWSpm9pi6UAS7?g_st=aw" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="inline-flex items-center gap-2"
