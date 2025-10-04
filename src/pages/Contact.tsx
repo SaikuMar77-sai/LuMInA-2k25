@@ -9,7 +9,7 @@ const Contact = () => {
   const facultyCoordinators = [
     {
       name: "Mr. B. Ramesh",
-      designation: "Assistant Proffessor, Dept. of AI & ML",
+      designation: "Assistant Professor, Dept. of AI & ML",
       phone: "+91 98667 46284",
       image: "👨‍🏫"
     },
@@ -24,7 +24,7 @@ const Contact = () => {
     },
     {
       name: "V. Keerthi",
-      designation: "Event Head & Final Year AI & ML",
+      designation: "Event Head & III Year AI & ML",
       phone: "+91 79930 66231",
       image: "👩‍🏫"
     },
