@@ -56,11 +56,11 @@ const Footer = () => {
               </div>
               <p className="font-inter text-muted-foreground mb-6 leading-relaxed">
                 Where Culture Meets Code - An extraordinary celebration of technology, 
-                creativity, and innovation organized by the Department of AI & Machine Learning.
+                creativity, and innovation organized by the Department of AI & ML.
               </p>
               <div className="flex items-center gap-2 text-sm font-inter">
-                <span className="text-muted-foreground">Made with</span>
-                <Heart className="w-4 h-4 text-red-400 animate-pulse" />
+                
+                
                 <span className="text-muted-foreground">by AI & ML Department</span>
               </div>
             </motion.div>
@@ -139,28 +139,7 @@ const Footer = () => {
             </motion.div>
           </div>
 
-          {/* Sponsors Section */}
-          <motion.div
-            initial={{ opacity: 0, y: 30 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.6, delay: 0.4 }}
-            className="mt-16 pt-8 border-t border-primary/10"
-          >
-            <h3 className="text-lg font-orbitron font-semibold text-gradient mb-6 text-center">
-              Sponsored By
-            </h3>
-            <div className="flex flex-wrap justify-center items-center gap-8">
-              {sponsors.map((sponsor, index) => (
-                <div
-                  key={sponsor}
-                  className="font-inter text-sm text-muted-foreground hover:text-primary transition-colors duration-300 cursor-pointer"
-                >
-                  {sponsor}
-                </div>
-              ))}
-            </div>
-          </motion.div>
+         
 
           {/* Bottom Bar */}
           <motion.div
@@ -173,11 +152,7 @@ const Footer = () => {
             <div className="flex flex-col md:flex-row justify-between items-center gap-4">
               <div className="flex items-center gap-6 text-sm font-inter text-muted-foreground">
                 <span>© {currentYear} LuMInA 2K25. All rights reserved.</span>
-                <span className="hidden md:block">|</span>
-                <span className="flex items-center gap-1">
-                  <Code className="w-4 h-4" />
-                  Built with React & TypeScript
-                </span>
+                
               </div>
               
               <div className="flex items-center gap-4 text-sm font-inter text-muted-foreground">
