@@ -130,7 +130,7 @@ const Contact = () => {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 gap-8 mb-16">
+          <div className="flex justify-center gap-8 mb-16">
             {facultyCoordinators.map((faculty, index) => (
               <motion.div
                 key={faculty.name}
@@ -154,10 +154,6 @@ const Contact = () => {
                   </div>
                 </div>
                 <div className="space-y-2">
-                  <div className="flex items-center gap-2 text-sm">
-                    <Mail className="w-4 h-4 text-primary" />
-                    <span className="font-inter">{faculty.email}</span>
-                  </div>
                   <div className="flex items-center gap-2 text-sm">
                     <Phone className="w-4 h-4 text-primary" />
                     <span className="font-inter">{faculty.phone}</span>
@@ -187,7 +183,7 @@ const Contact = () => {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="flex flex-wrap justify-center gap-6 mb-16">
             {studentCoordinators.map((student, index) => (
               <motion.div
                 key={student.name}
@@ -210,10 +206,6 @@ const Contact = () => {
                   {student.department}
                 </div>
                 <div className="space-y-1 text-xs">
-                  <div className="flex items-center justify-center gap-1">
-                    <Mail className="w-3 h-3 text-primary" />
-                    <span className="font-inter truncate">{student.email?.split('@')[0] ?? 'No email'}@...</span>
-                  </div>
                   <div className="flex items-center justify-center gap-1">
                     <Phone className="w-3 h-3 text-primary" />
                     <span className="font-inter">{student.phone}</span>
@@ -243,7 +235,7 @@ const Contact = () => {
             </p>
           </motion.div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-16">
+          <div className="flex justify-center gap-6 mb-16">
             {socialLinks.map((social, index) => (
               <motion.a
                 key={social.platform}
