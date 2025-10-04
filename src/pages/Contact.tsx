@@ -212,7 +212,7 @@ const Contact = () => {
                 <div className="space-y-1 text-xs">
                   <div className="flex items-center justify-center gap-1">
                     <Mail className="w-3 h-3 text-primary" />
-                    <span className="font-inter truncate">{student.email.split('@')[0]}@...</span>
+                    <span className="font-inter truncate">{student.email?.split('@')[0] ?? 'No email'}@...</span>
                   </div>
                   <div className="flex items-center justify-center gap-1">
                     <Phone className="w-3 h-3 text-primary" />
