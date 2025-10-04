@@ -203,43 +203,42 @@ const About = () => {
       </section>
 
       {/* Legacy Section */}
-      <section className="py-20">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <motion.div
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true }}
-            transition={{ duration: 0.8 }}
-            className="text-center"
-          >
-            <h2 className="text-4xl sm:text-5xl font-orbitron font-bold mb-8 text-gradient">
-              Building on Success
-            </h2>
-            <div className="glass-strong p-12 rounded-2xl border border-primary/30 max-w-4xl mx-auto">
-              <p className="text-xl font-inter text-muted-foreground leading-relaxed mb-8">
-                Last year's LuMInA witnessed over 400 enthusiastic participants, 
-                8 competitive events, and countless moments of brilliance. This year, 
-                we're raising the bar even higher with enhanced competitions, 
-                bigger prizes, and more opportunities for everyone to shine.
-              </p>
-              <div className="grid grid-cols-3 gap-8 text-center">
-                <div>
-                  <div className="text-3xl font-orbitron font-bold text-primary mb-2">400+</div>
-                  <div className="text-sm font-inter text-muted-foreground">Participants</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-orbitron font-bold text-secondary mb-2">₹40K</div>
-                  <div className="text-sm font-inter text-muted-foreground">Prize Pool</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-orbitron font-bold text-primary mb-2">8</div>
-                  <div className="text-sm font-inter text-muted-foreground">Events</div>
-                </div>
-              </div>
-            </div>
-          </motion.div>
+           <h2 className="text-4xl sm:text-5xl font-orbitron font-bold mb-8 text-gradient">
+        Special Thanks
+      </h2>
+      
+      <div className="glass-strong p-12 rounded-2xl border border-primary/30 max-w-5xl mx-auto space-y-10">
+        <p className="text-xl font-inter text-muted-foreground leading-relaxed mb-8">
+          We extend our heartfelt gratitude to our respected leaders for their 
+          continuous guidance, encouragement, and support in making 
+          <span className="text-gradient font-bold"> LuMInA 2K25 </span> a grand success.
+        </p>
+      
+        {/* Director Profile */}
+        <div className="p-6 rounded-xl bg-muted/30 shadow-md text-left">
+          <h3 className="text-2xl font-orbitron font-bold text-primary mb-2">
+            Dr. Ravindra Kasa
+          </h3>
+          <p className="text-md font-inter text-muted-foreground">
+            Director of St. Martin's Engineering College, a distinguished academic 
+            with degrees from Andhra University, IIT Roorkee (Gold Medalist), 
+            and a Ph.D. from Osmania University.
+          </p>
         </div>
-      </section>
+      
+        {/* HoD Profile */}
+        <div className="p-6 rounded-xl bg-muted/30 shadow-md text-left">
+          <h3 className="text-2xl font-orbitron font-bold text-secondary mb-2">
+            Dr. N. Krishnaiah
+          </h3>
+          <p className="text-md font-inter text-muted-foreground">
+            Professor and Head of the AI & ML Department at St. Martin's Engineering College. 
+            An accomplished academic and researcher with a Ph.D. in Computer Science & 
+            Engineering from JNTUK.
+          </p>
+        </div>
+      </div>
+
     </div>
   );
 };
